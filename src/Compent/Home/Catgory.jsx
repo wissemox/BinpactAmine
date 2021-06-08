@@ -23,8 +23,10 @@ const Catgory = () => {
         <Box>
             {/* Text */}
             <Container>
-                <Box className="mt-10 mb-10 ml-41p">
+                <Box className=" flex flex-center mt-10">
+                    <Box>
                     <Typography className="colorBlue text-3xl font-medium" variant="p">Nos catégories</Typography>
+                    </Box>
                 </Box>
             </Container>
         

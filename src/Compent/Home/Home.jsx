@@ -16,7 +16,7 @@ const Home = () => {
         <MainPage/>
         <Catgory/>
         <Nouveaute/>
-        {/* <Commentcamarche/> */}
+         <Commentcamarche/> 
         {/* <MainPage2/> */}
         {/* Update */}
         {/* <EssayezBinpact />

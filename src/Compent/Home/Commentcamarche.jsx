@@ -6,11 +6,17 @@ import VerifiedUserIcon from '@material-ui/icons/VerifiedUser';
 const Commentcamarche = () => {
     return (
         <Container>
-            <Box className="mt-80 mb-10 ml-35p h-3">
-                <Typography className="colorBlue text-2xl font-semibold	 mt-10" variant="p">Comment ca marche ? </Typography>
+            <Box>
+            <Box  className="mt-80  pl-3 flex flex-center">
+                <Box>
+                <Typography className="colorBlue text-2xl font-semibold	 " variant="p">Comment ca marche ? </Typography>
+                </Box>
             </Box>
-            <Box className="ml-36p">
-                <Typography variant="p">C'est tres simple , juste quelques clics!</Typography>
+            </Box>
+            <Box className="mt-2 pl-3 flex flex-center">
+                <Box>
+                    <Typography variant="p">C'est tres simple , juste quelques clics!</Typography>
+                </Box>
             </Box>
             <Box className="mt-150">
                 <Box className="flex h-1 ml-11p mb-20 justify-items-center">
@@ -23,7 +29,7 @@ const Commentcamarche = () => {
                 {/* Title */}
                 
             </Box>
-            <Box   className="mt-20 ml-5  flex  NavBarResposive 	 ">
+            {/* <Box   className="mt-20 ml-5  flex  NavBarResposive 	 ">
                 <Box  className="text-lg w-600 font-medium font-bold mr-20 ResposiveMenuIcon 	">
                 <p>Qu'est ce qui vous fait plaisir ?</p>
                 <Box className="text-center font-normal w-300 text-gray-400	 text-smp20">
@@ -50,7 +56,7 @@ const Commentcamarche = () => {
                     de vous . Vous pouvez nous payer avecun produit que vous n utlisez pls !  </p>
                 </Box>
                 </Box>
-            </Box>
+            </Box> */}
         </Container>
     )
 }

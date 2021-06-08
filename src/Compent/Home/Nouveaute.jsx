@@ -7,9 +7,9 @@ const Nouveaute = () => {
     const breakPoints = [
         { width: 1, itemsToShow: 1 },
         { width: 550, itemsToShow: 2 },
-        { width: 768, itemsToShow: 3 },
-        { width: 1200, itemsToShow: 4 },
-        { width: 1600, itemsToShow: 5 },
+        { width: 608, itemsToShow: 3 },
+        { width: 700, itemsToShow: 4 },
+        { width: 800, itemsToShow: 5 },
       ];
       const Array=[{
         Image:"dzadzzd"
@@ -38,10 +38,11 @@ const Nouveaute = () => {
             <Box className="mt-10 mb-10 ResposiveText text-center	">
                 <Typography className="colorBlue text-3xl ResposiveText font-medium" variant="p">Les nouveautés</Typography>
              </Box>
-            <Carousel breakPoints={breakPoints}>
+             <Container  className=" flex-center  ">
+            <Carousel  breakPoints={breakPoints}>
             {Array.map((el)=><CarouselMap el={el}/>)}
             </Carousel>
-            
+            </Container>
         </Box>
     )
 }
